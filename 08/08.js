@@ -12,7 +12,8 @@ const dias_da_semana = {
     7: 'sábado'
 }
 
-console.log(dias_da_semana[diaHoje])
+console.log(dias_da_semana[diaHoje]) || 'Esse dia não existe';
+
 
 // mais um exemplo
 
