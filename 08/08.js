@@ -12,8 +12,7 @@ const dias_da_semana = {
     7: 'sábado'
 }
 
-console.log(dias_da_semana[diaHoje]) || 'Esse dia não existe';
-
+console.log(dias_da_semana[diaHoje] || 'Esse dia não existe');
 
 // mais um exemplo
 
@@ -29,4 +28,4 @@ const carroSemana = {
     domingo: 'S1000RR'
 }
 
-console.log(carroSemana[carro]); 
+console.log(carroSemana[carro] || 'Esse dia não existe'); 
