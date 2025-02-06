@@ -32,4 +32,4 @@ function emojiMeanings(emoji) {
      } [emoji] || 'Emoji não encontrado!'; 
  }
 
-console.log(emojiMeanings(2))
+console.log(emojiMeanings(2));
